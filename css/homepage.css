@@ -70,11 +70,12 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 2px solid #ff0000;
 }
 .peClassify .hotClassify .classify_list1 {
-    margin-top: 20px;
+    
 }
 .peClassify .hotClassify .classify_list1 > li {
     float: left;
     width: 50%;
+    margin-top: 20px;
 }
 .peClassify .hotClassify .classify_list1 > li > h4 {
     font-size: 13px;
@@ -84,10 +85,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .peClassify .hotClassify .classify_list2 > li {
     float: left;
-    width: 21%;
+    width: 22%;
 }
 .peClassify .hotClassify .classify_list2 > li:last-child {
-    float: right;
+    float: left;
     width: 10%;
 }
 .peClassify .hotClassify .classify_list2 > li > a {
