@@ -73,3 +73,13 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     width: 50%;
 }
+.peClassify .hotClassify .classify_list1 > li > h4 {
+    font-size: 13px;
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+.peClassify .hotClassify .classify_list2 > li {
+    float: left;
+    width: 20%;
+}
