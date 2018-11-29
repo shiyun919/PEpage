@@ -31,6 +31,32 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+
+/*当前位置：样式*/
+.bread_nav {
+    line-height: 42px;
+    font-size: 14px;
+    border-bottom: 2px solid #f30;
+    margin-bottom: 10px;
+
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.dqwz {
+    line-height: 42px;
+    border-bottom: 2px solid #ff3300;
+    font-size: 14px;
+}
+.bread_nav ul，li {
+    display: inline-block;
+}
+
+
+
+
+
 /*正文样式*/
 .content {
     width: 100%;
