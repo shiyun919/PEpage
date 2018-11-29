@@ -45,7 +45,7 @@ input{border:none;}
 }
 .container {
     max-width: 1200px;
-    margin: 0px auto 20px auto;
+    margin: 0px auto 0px auto;
 }
 .dqwz {
     line-height: 42px;
@@ -67,7 +67,7 @@ input{border:none;}
 }
 .pePipe-floor {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 20px auto 0px auto;
 }
 .pePipe-floor > h2 {
     font-size: 18px;
