@@ -33,7 +33,9 @@ h1, h2, h3, h4, h5, h6 {
     clear: both;
 
 }
-
+body{ margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, img, small, strike, sub, sup, tt, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0;  }
+input{border:none;}
 
 /*当前位置：样式*/
 .bread_nav {
@@ -80,8 +82,9 @@ h1, h2, h3, h4, h5, h6 {
 .peSubstance .peClassify {
     float: left;
     padding: 10px 10px 0px 10px;
-    max-width: 900px;
+    max-width: 920px;
     border-right: 1px solid #e4e4e4;
+    box-sizing: border-box;
 }
 .peClassify .classifyTitle {
     border-bottom: 1px solid #e4e4e4;
