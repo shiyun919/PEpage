@@ -77,6 +77,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 50%;
     margin-top: 20px;
 }
+.peClassify .hotClassify .classify_list1 > li:nth-child(odd) {
+    margin-right: 10px;
+}
 .peClassify .hotClassify .classify_list1 > li > h4 {
     font-size: 13px;
     color: #333;
