@@ -12,6 +12,9 @@ a {
     color: inherit;
     cursor: pointer;
 }
+a.hover {
+    color: #ff3300;
+}
 ul, li {
     list-style-type: none;
 }
