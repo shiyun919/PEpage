@@ -65,17 +65,17 @@ input{border:none;}
 .content {
     width: 100%;
 }
-.pePipe-1f {
+.pePipe-floor {
     max-width: 1200px;
     margin: 0 auto;
 }
-.pePipe-1f > h2 {
+.pePipe-floor > h2 {
     font-size: 18px;
     color: #ff0000;
     line-height: 24px;
     padding-bottom: 10px;
 }
-.pePipe-1f .peSubstance {
+.pePipe-floor .peSubstance {
     border: 1px solid #c9c9c9;
     border-top-width: 2px;
 }
