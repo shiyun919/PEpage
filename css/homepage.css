@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .peClassify .hotClassify .classify_list2 > li:last-child {
     float: left;
-    width: 12%;
+    width: 14%;
 }
 .peClassify .hotClassify .classify_list2 > li:nth-child(5) {
     float: left;
