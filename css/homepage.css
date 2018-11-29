@@ -154,6 +154,7 @@ input{border:none;}
 }
 .peRecommend .reProducts li {
     float: left;
+    padding-bottom: 20px;
 }
 .peRecommend .reProducts li a {
     display: inline-block;
@@ -173,4 +174,8 @@ input{border:none;}
     padding: 10px 0px 10px 50px;
     background: url(./image/homepage_05.png) left;
     background-repeat: no-repeat;
+}
+.peRecommend .reProducts li .price {
+    font-size: 14px;
+    color: #ff0000;
 }
