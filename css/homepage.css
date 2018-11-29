@@ -16,7 +16,7 @@ ul, li {
     list-style-type: none;
 }
 h1, h2, h3, h4, h5, h6 {
-
+    font-family: "Arial Normal", Arial;
 }
 .left {
     float: left;
@@ -29,4 +29,23 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     clear: both;
 
+}
+
+/*正文样式*/
+.content {
+    width: 100%;
+}
+.PePipe-1f {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.PePipe-1f > h2 {
+    font-size: 16px;
+    color: #ff0000;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+.PePipe-1f .PeSubstance {
+    border: 1px solid #c9c9c9;
+    border-top-width: 2px;
 }
