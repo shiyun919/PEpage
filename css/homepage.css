@@ -146,3 +146,16 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700px;
     line-height: 40px;
 }
+.peRecommend .reProducts li {
+    float: left;
+}
+.peRecommend .reProducts li a {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
+.peRecommend .reProducts li img {
+    width: 120px;
+    height: 120px;
+}
