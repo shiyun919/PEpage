@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .peSubstance .peClassify {
     float: left;
-    padding: 10px 10px ;
+    padding: 10px 10px 0px 10px;
     max-width: 900px;
 }
 .peClassify .classifyTitle {
@@ -74,6 +74,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 48%;
     padding: 20px 0px 20px 0px;
     border-bottom: 1px dashed #e4e4e4;
+}
+.peClassify .hotClassify .classify_list1 > li:nth-child(7,8) {
+    border-bottom: none;
 }
 .peClassify .hotClassify .classify_list1 > li:nth-child(odd) {
     margin-right: 20px;
