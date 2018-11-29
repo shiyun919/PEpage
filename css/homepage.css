@@ -71,12 +71,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .peClassify .hotClassify .classify_list1 > li {
     float: left;
-    width: 49%;
+    width: 48%;
     padding: 20px 0px 20px 0px;
     border-bottom: 1px dashed #e4e4e4;
 }
 .peClassify .hotClassify .classify_list1 > li:nth-child(odd) {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .peClassify .hotClassify .classify_list1 > li > h4 {
     font-size: 13px;
