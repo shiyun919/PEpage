@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .peClassify .hotClassify .classify_list2 > li {
     float: left;
-    width: 20%;
+    width: 25%;
 }
 .peClassify .hotClassify .classify_list2 > li > a {
     font-size: 12px;
