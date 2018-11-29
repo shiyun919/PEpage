@@ -49,7 +49,8 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 2px solid #ff3300;
     font-size: 14px;
 }
-.bread_nav ul，li {
+.bread_nav li {
+    float: left;
     display: inline-block;
 }
 
