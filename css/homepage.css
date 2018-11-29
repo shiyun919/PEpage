@@ -35,17 +35,17 @@ h1, h2, h3, h4, h5, h6 {
 .content {
     width: 100%;
 }
-.PePipe-1f {
+.pePipe-1f {
     max-width: 1200px;
     margin: 0 auto;
 }
-.PePipe-1f > h2 {
+.pePipe-1f > h2 {
     font-size: 16px;
     color: #ff0000;
     line-height: 24px;
     padding-bottom: 10px;
 }
-.PePipe-1f .PeSubstance {
+.pePipe-1f .peSubstance {
     border: 1px solid #c9c9c9;
     border-top-width: 2px;
 }
