@@ -38,7 +38,6 @@ h1, h2, h3, h4, h5, h6 {
 /*当前位置：样式*/
 .bread_nav {
     line-height: 42px;
-    font-size: 14px;
     border-bottom: 2px solid #f30;
 
 }
@@ -53,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .bread_nav li {
     float: left;
-    display: inline-block;
+    font-size: 13px;
 }
 
 
