@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 .peSubstance .peClassify {
     float: left;
     padding: 10px 10px ;
-    max-width: 928px;
+    max-width: 930px;
 }
 .peClassify .classifyTitle {
     border-bottom: 1px solid #e4e4e4;
@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .peClassify .hotClassify .classify_list2 > li {
     float: left;
-    width: 25%;
+    width: 21%;
 }
 .peClassify .hotClassify .classify_list2 > li > a {
     font-size: 12px;
