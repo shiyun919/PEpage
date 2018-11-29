@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 .pePipe-1f > h2 {
-    font-size: 16px;
+    font-size: 18px;
     color: #ff0000;
     line-height: 24px;
     padding-bottom: 10px;
@@ -135,7 +135,14 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 12px;
     color: #555555;
     display: inline-block;
+    vertical-align: top;
 }
 .classify_list2 > li > a:hover {
     color: #ff3300;
+}
+.peRecommend h3 {
+    font-size: 16px;
+    color: #333;
+    font-weight: 700px;
+    line-height: 40px;
 }
