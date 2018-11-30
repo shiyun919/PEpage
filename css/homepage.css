@@ -224,7 +224,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .offer_list {
     position: relative;
-    width: 810px;
     box-shadow: none;
     background: #fff;
     /* border: 1px solid #eee; */
