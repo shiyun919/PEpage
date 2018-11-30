@@ -26,7 +26,7 @@ $(function(){
 
 
 //鼠标移动选中，下方的内容也跟着切换
-/*<script>
+<script>
     $(document).ready(function(){
     // tab
         var $tab_li = $('.tab_menu li');
@@ -38,4 +38,4 @@ $(function(){
             childer.eq(index).show().siblings().hide();
         });
     });
-</script>*/
+</script>
