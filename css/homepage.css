@@ -214,3 +214,137 @@ h1, h2, h3, h4, h5, h6 {
     text-overflow: ellipsis;/*文字隐藏后添加省略号*/
     white-space: nowrap;/*强制不换行*/
 }
+
+.offer_list1 {
+    height: 373px;
+    width: 696px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ddd;
+}
+.offer_list {
+    position: relative;
+    width: 810px;
+    box-shadow: none;
+    background: #fff;
+    /* border: 1px solid #eee; */
+    padding: 10px 10px 10px 10px;
+}
+.tab_menu {
+    width: 680px;
+    float: left;
+    position: absolute;
+    z-index: 1;
+    height: 35px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.tab_menu li {
+    float: left;
+    width: 50px;
+    height: 34px;
+    line-height: 30px;
+    /* border-bottom: 0px; */
+    cursor: pointer;
+    text-align: center;
+    border-left: none;
+}
+.tab_menu .selected {
+    cursor: pointer;
+    border-top: 2px solid #f30;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    color: #f30;
+    font-weight: bold;
+    background: #fff;
+}
+.tab_info {
+    margin-top: 40px;
+}
+.related_company {
+    position: relative;
+    width: auto;
+}
+.related_company .name_title {
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #333333;
+}
+.related_company .list {
+    position: relative;
+}
+.offer_list .related_company .c_name {
+    text-align: left;
+    padding-left: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.related_company .list li {
+    position: relative;
+    text-align: center;
+}
+.related_company .c_name {
+    width: 124px;
+}
+.offer_list .related_company .g_name {
+    text-align: left;
+}
+.related_company .g_name {
+    width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.related_company .g_name {
+    width: 150px;
+}
+.related_company .price {
+    width: 100px;
+}
+.related_company .num {
+    width: 106px;
+}
+.related_company .time {
+    width: 90px;
+}
+.related_company .adress {
+    width: 98px;
+}
+.related_company .com_list {
+    position: relative;
+    width: auto;
+    font-size: 12px;
+    line-height: 35px;
+    color: #333333;
+}
+.com_list > .list:not(:last-child) {
+    border-bottom-color: #eee;
+}
+.com_list > .list {
+    border: 1px dashed transparent;
+}
+
+.com_list .list > a > li {
+    color: #444;
+}
+.list > a > .price:not(:first-child) {
+    color: #FF9933;
+}
+.related_company .type {
+    width: 110px;
+}
+.related_company .type {
+    width: 90px;
+}
+.related_company .type {
+    width: 98px;
+}
+.com_list > .list {
+    border: 1px dashed transparent;
+}
+.offer_list .related_company>.com_list>.list:hover {
+    background: #ffe3d0;
+    border: 1px solid #ff6633;
+}
