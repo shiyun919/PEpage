@@ -191,6 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 /*2F*/
 
 .peMaterial-lf {
+    float: left;
     max-width: 210px;
     border-right: 1px solid #e4e4e4;
 }
