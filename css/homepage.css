@@ -190,4 +190,24 @@ h1, h2, h3, h4, h5, h6 {
 
 /*2F*/
 
-
+.peMaterial-lf {
+    max-width: 210px;
+}
+.peMaterial-lf .comRecommend {
+    padding: 20px 20px;
+}
+.peMaterial-lf .comRecommend .com-title {
+    font-size: 13px;
+    color: #333;
+}
+.peMaterial-lf .comRecommend > li > a {
+    display: inline-block;
+    vertical-align: top;
+    color: #666;
+    line-height: 24px;
+    height: 24px;
+    width: 170px;
+    overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    white-space: nowrap;/*强制不换行*/
+}
