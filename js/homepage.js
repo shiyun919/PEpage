@@ -16,3 +16,8 @@ $(function(){
         })
     });	
 });
+$(function(){
+    $("#selected li").click(function(){
+      $(this).addClass("now").siblings().removeClass("now");
+    });
+  })
