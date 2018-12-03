@@ -222,9 +222,9 @@ h1, h2, h3, h4, h5, h6 {
 .peMaterial-lf .comRecommend li > a:hover {
     color: #ff3300;
 }
-.offer_list1 {
+/* .offer_list1 {
     height: 373px;
-}
+} */
 .offer_list {
     position: relative;
     box-shadow: none;
