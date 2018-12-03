@@ -379,3 +379,25 @@ h1, h2, h3, h4, h5, h6 {
 .rawScreen > a:hover {
     color: #f30;
 }
+.plastic-lf {
+    float: left;
+}
+.plastic-lf .pro-title {
+
+}
+.plastic-lf .pro-title ul {
+    border-bottom: 1px solid #e5e5e5;
+}
+.plastic-lf .pro-title ul li {
+    float: left;
+    font-size: 14px;
+    color: #333;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+    border-bottom: 2px solid transparent;
+}
+.plastic-lf .pro-title ul li.now {
+    color: #f30;
+    border-bottom: 2px solid #f30;
+}
