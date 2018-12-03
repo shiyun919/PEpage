@@ -347,7 +347,7 @@ h1, h2, h3, h4, h5, h6 {
     background: #ffe3d0;
     border: 1px solid #ff6633;
 }
-.peRecommend .reProducts li .title {
+.peRecommend .reProducts li .name {
     font-size: 12px;
     color: #333;
     width: 98px;
