@@ -215,7 +215,9 @@ h1, h2, h3, h4, h5, h6 {
     text-overflow: ellipsis;/*文字隐藏后添加省略号*/
     white-space: nowrap;/*强制不换行*/
 }
-
+.peMaterial-lf .comRecommend li > a:hover {
+    color: #ff3300;
+}
 .offer_list1 {
     height: 373px;
     border-right: 1px solid #ddd;
