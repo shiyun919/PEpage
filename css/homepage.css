@@ -373,8 +373,7 @@ h1, h2, h3, h4, h5, h6 {
 .rawScreen > a {
     font-size: 12px;
     color: #999;
-    display: inline-block;
-    border-bottom: 1px solid #999;
+    text-decoration: underline;
 }
 .rawScreen > a:hover {
     color: #f30;
