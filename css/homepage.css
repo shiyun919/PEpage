@@ -404,3 +404,16 @@ h1, h2, h3, h4, h5, h6 {
     color: #f30;
     border-bottom: 2px solid #f30;
 }
+.plastic-lf .related_company li {
+    width: 110px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.plastic-lf .related_company li:first-child {
+    text-align: left;
+}
+.plastic-lf .related_company .c_name {
+}
+.plastic-lf .related_company .h_name {
+}
