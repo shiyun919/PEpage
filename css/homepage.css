@@ -382,9 +382,13 @@ h1, h2, h3, h4, h5, h6 {
 .plastic-lf {
     float: left;
 }
-.plastic-lf .pro-title {
-
+.plastic-lf .related_company {
+    padding-left: 10px;
 }
+.plastic-lf .pro-title {
+    margin-left: 20px;
+}
+
 .plastic-lf .pro-title ul {
     border-bottom: 1px solid #e5e5e5;
 }
@@ -400,12 +404,13 @@ h1, h2, h3, h4, h5, h6 {
 .plastic-lf .pro-title ul li:first-child {
     margin-left: 0px;
 }
+
 .plastic-lf .pro-title ul li.now {
     color: #f30;
     border-bottom: 2px solid #f30;
 }
 .plastic-lf .related_company li {
-    width: 110px;
+    width: 100px;
     text-align: center;
     overflow: hidden;
     white-space: nowrap;
@@ -413,7 +418,8 @@ h1, h2, h3, h4, h5, h6 {
 .plastic-lf .related_company li:first-child {
     text-align: left;
 }
-.plastic-lf .related_company .c_name {
+.plastic-lf .related_company .p_name {
+    
 }
 .plastic-lf .related_company .h_name {
 }
