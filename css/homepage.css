@@ -218,8 +218,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .offer_list1 {
     height: 373px;
-    width: 696px;
-    border-left: 1px solid #ccc;
     border-right: 1px solid #ddd;
 }
 .offer_list {
@@ -251,6 +249,7 @@ h1, h2, h3, h4, h5, h6 {
 .tab_menu .selected {
     cursor: pointer;
     border-top: 2px solid #f30;
+    border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
     color: #f30;
     font-weight: bold;
