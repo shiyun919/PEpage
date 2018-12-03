@@ -357,3 +357,24 @@ h1, h2, h3, h4, h5, h6 {
     height: 37px;
     line-height: 18px;
 }
+.rawScreen {
+    width: 400px;
+    position: absolute;
+    top: -40px;
+    right: 0;
+    z-index: 999;
+}
+.rawScreen > select {
+    font-size: 12px;
+    color: #999;
+    /* line-height: 20px; */
+    height: 20px;
+}
+.rawScreen > a {
+    font-size: 12px;
+    color: #999;
+    text-decoration: #999;
+}
+.rawScreen > a:hover {
+    color: #f30;
+}
