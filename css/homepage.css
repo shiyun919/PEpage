@@ -418,7 +418,8 @@ h1, h2, h3, h4, h5, h6 {
 .plastic-lf .related_company .p_name {
     padding-left: 10px;
 }
-.plastic-lf .related_company .h_name {
+.plastic-lf .related_company .j_name {
+    color: #ff9933;
 }
 .plastic-lf .related_company .list {
     width: 611px;
