@@ -419,7 +419,13 @@ h1, h2, h3, h4, h5, h6 {
 .plastic-lf .related_company .p_name {
     padding-left: 10px;
 }
-.plastic-lf .related_company .j_name:not(:first-child) {
+.plastic-lf .related_company .d_name {
+    width: 80px;
+}
+.plastic-lf .related_company .name_title .j_name {
+    color: #333;
+}
+.plastic-lf .related_company .j_name {
     color: #ff9933;
 }
 .plastic-lf .tab_menu {
