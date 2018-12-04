@@ -423,6 +423,9 @@ h1, h2, h3, h4, h5, h6 {
 .plastic-lf .related_company .d_name {
     width: 80px;
 }
+.plastic-lf .related_company .p_name {
+    width: 85px;
+}
 .plastic-lf .related_company .name_title .j_name {
     color: #333;
 }
