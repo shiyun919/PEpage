@@ -459,9 +459,22 @@ h1, h2, h3, h4, h5, h6 {
 .pePrice .priceSubstance ul li .timeBar {
     float: left;
     width: 1px;
-    height: 40px;
+    
     background: rgba(204, 204, 204);
     margin: 4px 25px 0px 25px;
+}
+.pePrice .priceSubstance ul li:nth-child(1) .timeBar {
+    height: 40px;
+}
+.pePrice .priceSubstance ul li:nth-child(2) .timeBar ,
+.pePrice .priceSubstance ul li:nth-child(3) .timeBar {
+    height: 80px;
+}
+.pePrice .priceSubstance ul li:nth-child(4) .timeBar ,
+.pePrice .priceSubstance ul li:nth-child(5) .timeBar ,
+.pePrice .priceSubstance ul li:nth-child(6) .timeBar ,
+.pePrice .priceSubstance ul li:nth-child(7) .timeBar {
+    height: 120px;
 }
 .pePrice .priceSubstance ul li .timeBar span {
     display: inline-block;
