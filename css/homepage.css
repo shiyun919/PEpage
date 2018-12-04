@@ -555,7 +555,8 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid #eee;
     box-sizing: border-box;
 }
-.peKnowledge-c .list1 .peKnowledge-s {
+.peKnowledge-c .list1 .peKnowledge-s ,
+.peKnowledge-j li .peKnowledge-s{
     margin-left: 10px;
     width: 200px;
 }
