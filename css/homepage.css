@@ -450,11 +450,29 @@ h1, h2, h3, h4, h5, h6 {
 .pePrice .priceSubstance {
 
 }
+.pePrice .priceSubstance ul li {
+    margin-bottom: 25px;
+}
 .pePrice .priceSubstance ul li .date {
     float: left;
     font-size: 12px;
     color: #797979;
 }
 .pePrice .priceSubstance ul li .timeBar {
-
+    float: left;
+    height: ;
+    border: 1px solid rgba(204, 2004, 204);
+    width: 1px;
+    margin: 0px 25px;
+}
+.pePrice .priceSubstance ul li .timeBar span {
+    width: 10px;
+    height: 10px;
+    background: rgba(204, 2004, 204);
+    border-radius: 50%
+}
+.pePrice .priceSubstance ul li a {
+    float: left;
+    font-size: 12px;
+    color: #444;
 }
