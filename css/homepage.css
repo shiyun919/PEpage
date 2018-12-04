@@ -536,6 +536,7 @@ h1, h2, h3, h4, h5, h6 {
 .peKnowledge-c .list1 .peKnowledge-s h5 {
     font-size: 14px;
     color: #444;
+    margin-bottom: 5px;
     font-weight: normal;
     overflow: hidden;
     text-overflow: ellipsis;
