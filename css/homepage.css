@@ -370,7 +370,8 @@ h1, h2, h3, h4, h5, h6 {
     height: 20px;
     width: 72px;
 }
-.rawScreen > a {
+.rawScreen > a ,
+.peKnowledge-t > a {
     font-size: 12px;
     color: #999;
     text-decoration: underline;
@@ -493,7 +494,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 12px;
     color: #555;
     width: 230px;
-    
+    line-height: 20px;
 }
 .pePrice .priceSubstance ul li:nth-child(1) a {
     overflow: hidden;
@@ -517,4 +518,21 @@ h1, h2, h3, h4, h5, h6 {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;/*超出3行隐藏*/
+}
+.peKnowledge-c ul li {
+    padding: 10px 0px;
+    border-bottom: 1px dashed #e4e4e4;
+}
+.peKnowledge-c .list1 img {
+    width: 135px;
+    height: 85px;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
+.peKnowledge-c .list1 .peKnowledge-s {
+    margin-left: 10px;
+}
+.peKnowledge-c .list1 .peKnowledge-s h5 {
+    font-size: 14px;
+    color: #444;
 }
