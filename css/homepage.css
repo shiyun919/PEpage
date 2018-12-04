@@ -576,7 +576,8 @@ h1, h2, h3, h4, h5, h6 {
 .peKnowledge-j h5:hover {
     color: #f30;
 }
-.peKnowledge-c p {
+.peKnowledge-c p ,
+.peKnowledge-j .serviceArea {
     font-size: 12px;
     color: #666;
     line-height: 20px;
@@ -619,18 +620,10 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .peKnowledge-j ul li img {
-    width: 80px;
-    height: 80px;
+    width: 92px;
+    height: 92px;
     border: 1px solid #eee;
     box-sizing: border-box;
-}
-.peKnowledge-j .serviceArea {
-    font-size: 12px;
-    color: #666;
-    line-height: 20px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
 }
 .peKnowledge-j .serviceArea span {
     color: #444;
