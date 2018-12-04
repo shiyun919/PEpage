@@ -367,7 +367,6 @@ h1, h2, h3, h4, h5, h6 {
 .rawScreen > select {
     font-size: 12px;
     color: #999;
-    /* line-height: 20px; */
     height: 20px;
     width: 72px;
 }
@@ -451,7 +450,6 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .pePrice .priceSubstance ul li {
-    margin-bottom: 25px;
 }
 .pePrice .priceSubstance ul li .date {
     float: left;
@@ -460,14 +458,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 .pePrice .priceSubstance ul li .timeBar {
     float: left;
-    border: 1px solid rgba(204, 204, 204);
     width: 1px;
+    height: 40px;
     background: rgba(204, 204, 204);
-    margin: 0px 25px;
+    margin: 4px 25px 0px 25px;
 }
 .pePrice .priceSubstance ul li .timeBar span {
     display: inline-block;
-    width: 10px;
+    vertical-align: top;
+    width:10px;
     height: 10px;
     background: rgba(204, 204, 204);
     border-radius: 50%
@@ -476,4 +475,29 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     font-size: 12px;
     color: #444;
+    width: 230px;
+    
+}
+.pePrice .priceSubstance ul li:nth-child(1) a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.pePrice .priceSubstance ul li:nth-child(2) a ,
+.pePrice .priceSubstance ul li:nth-child(3) a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;/*超出2行隐藏*/
+}
+.pePrice .priceSubstance ul li:nth-child(4) a ,
+.pePrice .priceSubstance ul li:nth-child(5) a ,
+.pePrice .priceSubstance ul li:nth-child(6) a ,
+.pePrice .priceSubstance ul li:nth-child(7) a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;/*超出3行隐藏*/
 }
