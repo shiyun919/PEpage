@@ -575,7 +575,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #f30;
 }
 .peKnowledge-c p ,
-.peKnowledge-c .serviceArea  {
+.peKnowledge-j .serviceArea  {
     font-size: 12px;
     color: #666;
     line-height: 20px;
@@ -622,6 +622,6 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid #eee;
     box-sizing: border-box;
 }
-.peKnowledge-c .serviceArea span {
+.peKnowledge-j .serviceArea span {
     color: #444;
 }
