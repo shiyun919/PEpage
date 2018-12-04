@@ -583,9 +583,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 20px;
     overflow: hidden;
     text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    white-space: nowrap;
 }
 .peKnowledge-c p:hover {
     color: #f30;
@@ -620,8 +618,8 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .peKnowledge-j ul li img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: 1px solid #eee;
     box-sizing: border-box;
 }
