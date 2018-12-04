@@ -19,7 +19,7 @@ ul, li {
     list-style-type: none;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Arial Normal", Arial;
+    font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif;
 }
 .left {
     float: left;
@@ -560,7 +560,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 10px;
     width: 200px;
 }
-.peKnowledge-c h5 {
+.peKnowledge-c h5 ,
+.peKnowledge-j h5 {
     font-size: 14px;
     color: #444;
     margin-bottom: 5px;
@@ -569,7 +570,8 @@ h1, h2, h3, h4, h5, h6 {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.peKnowledge-c h5:hover {
+.peKnowledge-c h5:hover ,
+.peKnowledge-j h5:hover {
     color: #f30;
 }
 .peKnowledge-c p ,
