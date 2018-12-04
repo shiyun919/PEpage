@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: none;
     background: #fff;
     /* border: 1px solid #eee; */
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 0px;
 }
 .tab_menu {
     width: 680px;
@@ -383,7 +383,7 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
 }
 .plastic-lf .pro-title {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .plastic-lf .pro-title ul {
