@@ -388,6 +388,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .plastic-lf .pro-title ul {
     border-bottom: 1px solid #e5e5e5;
+    max-width: 581px;
 }
 .plastic-lf .pro-title ul li {
     float: left;
@@ -395,7 +396,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
     height: 40px;
     line-height: 40px;
-    margin-left: 20px;
+    margin-left: 21px;
     border-bottom: 2px solid transparent;
     cursor: pointer;
 }
@@ -429,5 +430,5 @@ h1, h2, h3, h4, h5, h6 {
     color: #ff9933;
 }
 .plastic-lf .tab_menu {
-    width: 611px;
+    width: 581px;
 }
