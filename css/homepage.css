@@ -468,6 +468,13 @@ h1, h2, h3, h4, h5, h6 {
     background: rgba(204, 204, 204);
     margin: 0px 25px 0px 25px;
 }
+.pePrice .priceSubstance ul li .timeBar a {
+    display: inline-block;
+    vertical-align: top;
+}
+.pePrice .priceSubstance ul li .timeBar a:hover {
+    color: #f30;
+}
 .pePrice .priceSubstance ul li:nth-child(1) .timeBar {
     margin-top: 4px;
     height: 40px;
@@ -530,6 +537,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .peKnowledge-c ul li:first-child {
     padding-top: 0px;
+}
+.peKnowledge-c ul li a {
+    display: inline-block;
+    vertical-align: top;
+}
+.peKnowledge-c ul li a:hover {
+    color: #f30;
 }
 .peKnowledge-c .list1 img {
     width: 135px;
