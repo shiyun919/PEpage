@@ -504,7 +504,7 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     font-size: 12px;
     color: #555;
-    width: 230px;
+    width: 261px;
     line-height: 20px;
 }
 .pePrice .priceSubstance ul li:nth-child(1) a {
@@ -531,7 +531,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-line-clamp: 3;/*超出3行隐藏*/
 }
 .peKnowledge-c ul li {
-    width: 345px;
+    width: 379px;
     padding: 18.5px 0px;
     border-bottom: 1px dashed #e4e4e4;
 }
@@ -557,10 +557,9 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid #eee;
     box-sizing: border-box;
 }
-.peKnowledge-c .list1 .peKnowledge-s ,
-.peKnowledge-j li .peKnowledge-s{
+.peKnowledge-c .list1 .peKnowledge-s {
     margin-left: 10px;
-    width: 200px;
+    width: 234px;
 }
 .peKnowledge-c h5 ,
 .peKnowledge-j h5 {
@@ -625,9 +624,14 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid #eee;
     box-sizing: border-box;
 }
+.peKnowledge-j li .peKnowledge-s{
+    margin-left: 10px;
+    width: 276px;
+}
 .peKnowledge-j .serviceArea span {
     color: #444;
 }
+
 .peKnowledge-j .button {
     margin-top: 10px;
 }
