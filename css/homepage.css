@@ -438,9 +438,13 @@ h1, h2, h3, h4, h5, h6 {
 .plastic-lf .tab_menu {
     width: 567px;
 }
+.pePrice:first-child {
+    border-left: none;
+}
 .pePrice {
     padding: 10px 10px;
     float: left;
+    border-left: 1px solid #e4e4e4;
 }
 .pePrice h4 {
     font-size: 16px;
