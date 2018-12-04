@@ -379,6 +379,9 @@ h1, h2, h3, h4, h5, h6 {
 .rawScreen > a:hover {
     color: #f30;
 }
+.pePipe-floor .peSubstance > .plastic-lf:last-child {
+    margin-left: 24px;
+}
 .plastic-lf {
     float: left;
 }
