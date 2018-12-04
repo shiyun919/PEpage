@@ -466,6 +466,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0px 25px;
 }
 .pePrice .priceSubstance ul li .timeBar span {
+    display: inline-block;
     width: 10px;
     height: 10px;
     background: rgba(204, 204, 204);
