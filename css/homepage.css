@@ -63,10 +63,11 @@ h1, h2, h3, h4, h5, h6 {
 /*1F*/
 .content {
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .pePipe-floor {
-    max-width: 1200px;
-    margin: 20px auto 0px auto;
+    margin-top: 20px ;
 }
 .pePipe-floor > h2 {
     font-size: 18px;
