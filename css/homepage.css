@@ -597,15 +597,15 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     vertical-align: top;
 }
-.peKnowledge-t > li {
+.peKnowledge-t > ul > li {
     font-size: 12px;
     color: #666；
     padding:0px 10px;
 }
-.peKnowledge-t > li:now {
+.peKnowledge-t > ul > li:now {
     color: #f30；
 }
-.peKnowledge-t > li:last-child {
+.peKnowledge-t > ul > li:last-child {
     padding-right: 0px;
     border-left: 1px solid rgb(204, 204, 204)
 }
