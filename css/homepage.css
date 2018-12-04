@@ -438,3 +438,22 @@ h1, h2, h3, h4, h5, h6 {
 .plastic-lf .tab_menu {
     width: 567px;
 }
+.pePrice {
+    padding: 10px 10px;
+}
+.pePrice h4 {
+    font-size: 16px;
+    color: #4444;
+    margin-bottom: 10px;
+}
+.pePrice .priceSubstance {
+
+}
+.pePrice .priceSubstance ul li .date {
+    float: left;
+    font-size: 12px;
+    color: #797979;
+}
+.pePrice .priceSubstance ul li .timeBar {
+    
+}
