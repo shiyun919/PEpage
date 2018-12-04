@@ -571,9 +571,10 @@ h1, h2, h3, h4, h5, h6 {
 .peKnowledge-c h5:hover {
     color: #f30;
 }
-.peKnowledge-c p {
+.peKnowledge-c p ,
+.peKnowledge-c .serviceArea  {
     font-size: 12px;
-    color: #555;
+    color: #666;
     line-height: 20px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -595,5 +596,29 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     vertical-align: top;
 }
+.peKnowledge-t > li {
+    font-size: 12px;
+    color: #666；
+    padding:0px 10px;
+}
+.peKnowledge-t > li:now {
+    color: #f30；
+}
+.peKnowledge-t > li:last-child {
+    padding-right: 0px;
+    border-left: 1px solid rgb(204, 204, 204)
+}
+.peKnowledge-j ul li {
+    padding: 15px 0px ;
+    border-bottom: 1px dashed #e4e4e4;
 
-
+}
+.peKnowledge-j ul li img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
+.peKnowledge-c .serviceArea span {
+    color: #444;
+}
