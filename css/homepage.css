@@ -599,8 +599,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .peKnowledge-t > ul > li {
     font-size: 12px;
-    color: #666；
-    padding:0px 10px;
+    color: #666;
+    padding: 0px 10px;
 }
 .peKnowledge-t > ul > li:now {
     color: #f30；
