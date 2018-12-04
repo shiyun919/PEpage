@@ -625,3 +625,17 @@ h1, h2, h3, h4, h5, h6 {
 .peKnowledge-j .serviceArea span {
     color: #444;
 }
+.peKnowledge-j .button {
+    margin-top: 15px;
+}
+.peKnowledge-j .button a {
+    padding: 12px 25px;
+    border-radius: 10px;
+}
+.peKnowledge-j .button .btn-1 {
+    background: #F43F0A ;
+}
+.peKnowledge-j .button .btn-2 {
+    margin-left: 10px;
+    background: #ff9900;
+}
