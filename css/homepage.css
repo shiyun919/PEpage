@@ -525,7 +525,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .peKnowledge-c ul li {
     width: 345px;
-    padding: 20px 0px;
+    padding: 18.5px 0px;
     border-bottom: 1px dashed #e4e4e4;
 }
 .peKnowledge-c ul li:first-child {
@@ -563,12 +563,13 @@ h1, h2, h3, h4, h5, h6 {
 .peKnowledge-c span {
     font-size: 12px;
     color: #bcbcbc;
-    margin-top: 10px;
 }
 .peKnowledge-c .list2 span {
     font-size: 12px;
     color: #bcbcbc;
-    margin-top: 18px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 
