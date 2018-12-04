@@ -538,6 +538,10 @@ h1, h2, h3, h4, h5, h6 {
 .peKnowledge-c ul li:first-child {
     padding-top: 0px;
 }
+.peKnowledge-c ul li:last-child {
+    padding-bottom: 0px;
+    border-bottom: none;
+}
 .peKnowledge-c ul li a {
     display: inline-block;
     vertical-align: top;
