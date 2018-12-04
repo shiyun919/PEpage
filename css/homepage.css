@@ -568,6 +568,9 @@ h1, h2, h3, h4, h5, h6 {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+.peKnowledge-c h5:hover {
+    color: #f30;
+}
 .peKnowledge-c p {
     font-size: 12px;
     color: #555;
@@ -577,6 +580,9 @@ h1, h2, h3, h4, h5, h6 {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
+}
+.peKnowledge-c p:hover {
+    color: #f30;
 }
 .peKnowledge-c span {
     font-size: 12px;
