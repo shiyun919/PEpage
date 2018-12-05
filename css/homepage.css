@@ -816,8 +816,8 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
 }
 .c-recommended > ul > li > a > img {
-    width: 75px;
-    height: 75px;
+    width: 70px;
+    height: 70px;
 }
 
 .c-recommended .c-grid {
@@ -825,7 +825,7 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
 }
 .c-recommended .c-grid ul li {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 .c-recommended .c-grid ul li:last-child {
     margin-bottom: 0px;
