@@ -787,6 +787,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     color: #333;
     height: 40px;
+    font-weight: normal;
     line-height: 40px;
     padding-left: 40px;
     background: url(../image/homepage_22.png) left no-repeat;
