@@ -876,6 +876,10 @@ h1, h2, h3, h4, h5, h6 {
     border-left: 1px solid #e4e4e4;
     display: inline-block;
     vertical-align: top;
+    width: 90px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .c-recommended .c-grid .button a {
     display: inline-block;
