@@ -687,11 +687,11 @@ h1, h2, h3, h4, h5, h6 {
     vertical-align: top;
     
 }
-.p-describe .pro-image ul li a .image-1 {
+.p-describe .pro-image .image-1 a img {
     width: 45px;
     height: 45px;
     border: 1px solid #eee;
 }
-.p-describe .pro-image ul li a:hover .image-1 {
+.p-describe .pro-image .image-1 a:hover img {
     border: 1px solid #ff6600;
 }
