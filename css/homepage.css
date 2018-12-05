@@ -780,3 +780,39 @@ h1, h2, h3, h4, h5, h6 {
     background-position: 12px;
     background-repeat: no-repeat;
 }
+.p-recommended {
+    margin-left: 20px;
+}
+.p-recommended > h3 {
+    font-size: 16px;
+    color: #333;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 40px;
+    background: url(../image/homepage_22.png) left no-repeat;
+    border-bottom: #eee;
+}
+.p-recommended .c-recommended {
+    padding: 0px 10px;
+}
+.c-recommended > ul > li {
+    padding: 10px 0px;
+    border-bottom: 1px dashed #eee;
+}
+.c-recommended > ul > li:last-child {
+    border-bottom: none;
+}
+.c-recommended > ul > li > a {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
+.c-recommended > ul > li > a > img {
+    width: 80px;
+    height: 80px;
+}
+
+.c-recommended .c-grid {
+    padding-left: 10px;
+}
