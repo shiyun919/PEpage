@@ -15,6 +15,9 @@ a {
 a:hover {
     color: #ff3300;
 }
+img {
+    display: block;
+}
 ul, li {
     list-style-type: none;
 }
