@@ -685,12 +685,13 @@ h1, h2, h3, h4, h5, h6 {
 .p-describe .pro-image ul li a {
     display: inline-block;
     vertical-align: top;
-    border: 1px solid #eee;
+    
 }
-.p-describe .pro-image ul li a img {
+.p-describe .pro-image ul li a .image-1 {
     width: 45px;
     height: 45px;
+    border: 1px solid #eee;
 }
-.p-describe .pro-image ul li a:hover {
+.p-describe .pro-image ul li a:hover .image-1 {
     border: 1px solid #ff6600;
 }
