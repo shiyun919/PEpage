@@ -668,3 +668,29 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     padding-bottom: 20px;
 }
+.p-describe .pro-image img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
+.p-describe .pro-image ul li {
+    float: left;
+}
+.p-describe .pro-image ul li:nth-child(2) ,
+.p-describe .pro-image ul li:nth-child(3) ,
+.p-describe .pro-image ul li:nth-child(4) {
+    margin-left: 10px;
+}
+.p-describe .pro-image ul li a {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #eee;
+}
+.p-describe .pro-image ul li a img {
+    width: 45px;
+    height: 45px;
+}
+.p-describe .pro-image ul li a:hover {
+    border: 1px solid #ff6600;
+}
