@@ -891,3 +891,35 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0px 10px;
     background: #cc3333;
 }
+.product-down {
+    margin-top: 20px;
+}
+.product-down .productList {
+
+}
+.productList .productList-c {
+    border: 1px solid #d7d7d7;
+}
+.productList-c .productList-t {
+    background: #f2f2f2;
+    padding: 10px 10px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.productList-t .screen .sort {
+    font-size: 12px;
+    color: #666;
+}
+.productList-t .screen ul li {
+    font-size: 12px;
+    color: #666;
+    line-height: 25px;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+}
+.productList-t .screen .sort1 {
+    padding:0px 10px;
+}
+.productList-t .screen ul li.now {
+    background: #ff6600;
+    border: 1px solid #ff6600;
+}
