@@ -821,6 +821,12 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 10px;
     float: left;
 }
+.c-recommended .c-grid ul li {
+    margin-bottom: 10px;
+}
+.c-recommended .c-grid ul li:last-child {
+    margin-bottom: 0px;
+}
 .c-recommended .c-grid .name {
     font-size: 14px;
     color: #333;
@@ -840,6 +846,7 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 .c-recommended .c-grid .grade .fixture {
+    color: #666;
     margin-left: 10px;
     padding-left: 10px;
     border-right: 1px solid #e4e4e4;
