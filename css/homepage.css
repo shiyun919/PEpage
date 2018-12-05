@@ -582,7 +582,7 @@ h1, h2, h3, h4, h5, h6 {
 .peKnowledge-c p ,
 .peKnowledge-j .serviceArea {
     font-size: 12px;
-    color: #666;
+    color: #999;
     line-height: 20px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -838,8 +838,8 @@ h1, h2, h3, h4, h5, h6 {
 .c-recommended .c-grid .name .ranking {
     font-size: 12px;
     color: #e5be59;
-    padding-left: 25px;
-    background: url(../image/homepage_26.png) left no-repeat;
+    padding-left: 40px;
+    background: url(../image/homepage_26.png) 20px no-repeat;
     background-size: 15px 13px;
 }
 .c-recommended .c-grid .grade {
