@@ -704,24 +704,31 @@ h1, h2, h3, h4, h5, h6 {
 .pro-describe {
     padding-left: 20px;
 }
-.pro-describe > .list-1 > li {
+.pro-describe .list-1 {
+    padding-bottom: 20px;
+}
+.pro-describe .list-1 li {
     font-size: 12px;
     color: #797979;
     line-height: 24px;
 }
-.pro-describe > .list-1 > li > .price {
+.pro-describe .list-1 li .price {
     font-size: 18px;
     color: #ff0000;
 }
-.pro-describe > .list-1 > li > .evaluate {
+.pro-describe .list-1 li .evaluate {
     color: #22488f;
 }
-.pro-describe > .list-1 > li > .score {
+.pro-describe .list-1 li .score {
     display: inline-block;
     vertical-align: top;
     margin-left: 20px;
     padding-left: 80px;
     background: url(../image/u48.gif) left no-repeat;
+}
+.pro-describe .list-2 {
+    padding-top: 20px;
+    border: 1px dashed #e4e4e4;
 }
 .pro-describe .list-2 li {
     float: left;
