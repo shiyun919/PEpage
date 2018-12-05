@@ -719,6 +719,7 @@ h1, h2, h3, h4, h5, h6 {
 .pro-describe > ul > li > .score {
     display: inline-block;
     vertical-align: top;
-    padding-left: 120px;
+    margin-left: 20px;
+    padding-left: 85px;
     background: url(../image/u48.gif) left no-repeat;
 }
