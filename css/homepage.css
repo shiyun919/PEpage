@@ -711,7 +711,7 @@ h1, h2, h3, h4, h5, h6 {
 .pro-describe .list-1 li {
     font-size: 12px;
     color: #797979;
-    line-height: 24px;
+    line-height: 30px;
 }
 .pro-describe .list-1 li .price {
     font-size: 18px;
@@ -728,14 +728,14 @@ h1, h2, h3, h4, h5, h6 {
     background: url(../image/u48.gif) left no-repeat;
 }
 .pro-describe .list-2 {
-    padding-top: 20px;
+    padding-top: 12px;
     border-top: 1px dashed #e4e4e4;
 }
 .pro-describe .list-2 li {
     float: left;
     font-size: 12px;
     color: #666;
-    padding: 10px 0px;
+    padding: 8px 0px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
