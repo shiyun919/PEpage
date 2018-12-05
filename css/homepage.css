@@ -835,10 +835,19 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
     line-height: 18px;
 }
-.c-recommended .c-grid .name .ranking {
+.c-recommended .c-grid .name .ranking1 {
     font-size: 12px;
     color: #e5be59;
 }
+.c-recommended .c-grid .name .ranking2 {
+    font-size: 12px;
+    color: #b98b7c;
+}
+.c-recommended .c-grid .name .ranking3 {
+    font-size: 12px;
+    color: #bfbfbf;
+}
+
 .c-recommended .c-grid .name .inco-1 {
     background: url(../image/homepage_26.png) 20px no-repeat;
     padding-left: 40px;
