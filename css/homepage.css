@@ -924,16 +924,23 @@ h1, h2, h3, h4, h5, h6 {
 .productList-t .screen .sort2 {
     padding: 0px 25px 0px 10px;
     margin-left: 10px;
+    position: relative;
 }
 .productList-t .screen ul li .up {
     display: inline-block;
     vertical-align: top;
     background: url(../image/homepage_29.png) 0px 0px no-repeat;
+    width: 16px;
+    height: 7px;
+    position: absolute;
 }
 .productList-t .screen ul li .down {
     display: inline-block;
     vertical-align: top;
     background: url(../image/homepage_30.png) 0px 0px no-repeat;
+    width: 16px;
+    height: 7px;
+    position: absolute;
 }
 .productList-t .screen ul li.now .up {
     background: url(../image/homepage_29-1.png) 0px 0px no-repeat;
