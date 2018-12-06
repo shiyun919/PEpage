@@ -895,10 +895,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 20px;
 }
 .product-down .productList {
-
+    width: 900px;
 }
 .productList .productList-c {
     border: 1px solid #d7d7d7;
+    box-sizing: border-box;
 }
 .productList-c .productList-t {
     background: #f2f2f2;
