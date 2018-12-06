@@ -706,7 +706,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .pro-describe {
     padding-left: 20px;
-    max-width: 658px;
+    width: 658px;
 }
 .pro-describe .list-1 {
     padding-bottom: 20px;
@@ -922,7 +922,7 @@ h1, h2, h3, h4, h5, h6 {
     padding:0px 10px;
 }
 .productList-t .screen .sort2 {
-    padding: 0px 25px 0px 10px;
+    padding: 0px 27px 0px 10px;
     margin-left: 10px;
     position: relative;
 }
@@ -933,6 +933,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 16px;
     height: 7px;
     position: absolute;
+    z-index: 999;
+    top: 5px;
+    left: 38px;
 }
 .productList-t .screen ul li .down {
     display: inline-block;
@@ -941,6 +944,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 16px;
     height: 7px;
     position: absolute;
+    z-index: 999;
+    top: 12px;
+    left: 38px;
 }
 .productList-t .screen ul li.now .up {
     background: url(../image/homepage_29-1.png) 0px 0px no-repeat;
@@ -951,4 +957,13 @@ h1, h2, h3, h4, h5, h6 {
 .productList-t .screen ul li.now {
     background: #ff6600;
     border: 1px solid #ff6600;
+}
+.productList-t .fastFlip .number {
+    font-size: 12px;
+    color: #333;
+    height: 27px;
+    line-height: 27px;
+}
+.productList-t .fastFlip .number span {
+    color: #ff6600;
 }
